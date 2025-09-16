@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap");
+
+/* Main text is Krub */
+body {
+  font-family: "Krub", sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #454746;
+  background-color: #d3e0d7;
+}
+
+/* Increase font size for headings and main text */
+h1 {
+  font-size: 26px; 
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 24px; 
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px; 
+}
+
+ul {
+  font-size: 16px; 
+}
+
+li {
+  font-size: 16px; 
+}
+
+html {
+  background: #d3e0d7;
+}
+
+/* Give headers Krub font */
+/* Uncomment the following lines if you want headings to use the Krub font */
+/*
+h1,
+h2,
+h3 {
+  font-family: "Krub", sans-serif;
+  color: #000;
+}
+*/
+
+/* When in PDF export mode make sure superscripts are nice and small and italic */
+sup {
+  font-size: 0.45rem;
+  font-style: italic;
+}
+
+/* Fiddle with TOC */
+.list-group-item.active,
+.list-group-item.active:focus,
+.list-group-item.active:hover {
+  z-index: 2;
+  color: #fbd01e;
+  background-color: #0c7444;
+  border-color: #0c7444;
+}
+
+/* Change the background color of non-highlighted TOC items */
+.list-group-item {
+  background-color: #d3e0d7;
+}

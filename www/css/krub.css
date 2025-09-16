@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Krub';
+  font-style: normal;
+  font-weight: 400;
+  src: url('..fonts/Krub-BoldItalic.ttf') format('truetype');
+  src: url('..fonts/Krub-ExtraLight.ttf') format('truetype');
+  src: url('..fonts/Krub-ExtraLightItalic.ttf') format('truetype');
+  src: url('..fonts/Krub-Italic.ttf') format('truetype');
+  src: url('..fonts/Krub-Light.ttf') format('truetype');
+  src: url('..fonts/Krub-LightItalic.ttf') format('truetype');
+  src: url('..fonts/Krub-Medium.ttf') format('truetype');
+  src: url('..fonts/Krub-MediumItalic.ttf') format('truetype');
+  src: url('..fonts/Krub-Regular.ttf') format('truetype');
+  src: url('..fonts/Krub-SemiBold.ttf') format('truetype');
+  src: url('..fonts/Krub-BoldItalic.ttf') format('truetype');
+  src: url('..fonts/Krub-SemiBoldItalic.ttf') format('truetype');
+}
